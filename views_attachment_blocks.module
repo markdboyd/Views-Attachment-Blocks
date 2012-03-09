@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * @file
+ * TODO: Enter file description here.
+ */
+
+/**
+ * Implementation of hook_views_api().
+ */
+function views_attachment_blocks_views_api() {
+  return array(
+    'api' => 2,
+    'path' => drupal_get_path('module', 'views_attachment_blocks') ,
+  );
+}
