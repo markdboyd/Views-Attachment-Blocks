@@ -1,7 +1,13 @@
 name = Views attachment blocks
 description = Provides an attachment display for views which allows you to select a block as its content. Used to supply custom headers or footers to your views.
-core = 6.x
-version = 6.x-1.0
-package = Views
+
+core = 7.x
 dependencies[] = block
 dependencies[] = views
+
+files[] = views_attachment_blocks.module
+files[] = views_attachment_blocks.views.inc
+files[] = views_attachment_blocks_plugin_attachment_block.inc
+
+version = 7.x-1.0
+package = Views

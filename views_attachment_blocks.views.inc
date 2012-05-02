@@ -38,4 +38,3 @@ function views_attachment_blocks_views_plugins() {
     ),
   );
 }
-

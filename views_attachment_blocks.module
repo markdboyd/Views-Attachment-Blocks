@@ -10,7 +10,7 @@
  */
 function views_attachment_blocks_views_api() {
   return array(
-    'api' => 2,
-    'path' => drupal_get_path('module', 'views_attachment_blocks') ,
+    'api' => 3,
+    'path' => drupal_get_path('module', 'views_attachment_blocks'),
   );
 }

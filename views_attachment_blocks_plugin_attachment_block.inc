@@ -50,7 +50,7 @@ class views_attachment_blocks_plugin_attachment_block extends views_plugin_displ
     // It is very important to call the parent function here:
     parent::options_form($form, $form_state);
 
-    $default_theme = variable_get('theme_default', 'garland');
+    $default_theme = variable_get('theme_default', 'bartik');
     $blocks = array();
 
     $blocks[0] = t('Select a block...');
@@ -111,7 +111,7 @@ class views_attachment_blocks_plugin_attachment_block extends views_plugin_displ
         break;
       case 'both':
         $this->view->attachment_before .= $attachment;
-        $this->view->attachment_after .= $attachment;
+        $this->view->attachment_after  .= $attachment;
         break;
     }
   }  
